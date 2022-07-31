@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2022"],
+    "module": "commonjs",
+    "sourceMap": true
+  }
+}

@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>Jukebox</title>
+    <style>
+      body { color: darkslategrey; font-family: "Helvetica" }
+    </style>
+  </head>
+
+  <body>
+    <h1>Jukebox</h1>
+    <em>
+      One song is played for each visitor, picked at random from their individual favorite artists.<br/>
+      Each song plays without interruption for its entire duration (capped to a few seconds).<br/>
+      No repeats. If multiple visitors like the same song, it will only be played once.
+    </em>
+
+    <br/><br/>
+    <button id="admit-visitor">Admit next visitor</button>
+
+    <h3>Visitors currently at the venue</h3>
+    <div id="visitors"> </div>
+
+    <h3>Playlist</h3>
+    <div id="playlist"></div>
+
+    <h3>Now playing</h3>
+    <div id="current-song"></div>
+
+    <script type="text/javascript" src="jukebox.js"></script>
+  </body>
+</html>
