@@ -6,8 +6,8 @@ preferences are loaded and taken into account when streaming music at the
 venue. In other words, playlists are dynamically generated based on who is 
 inside at the moment.
 
-TypeScript implementation by Rik de Boer 1 Aug 2021
----------------------------------------------------
+TypeScript implementation by Rik de Boer
+----------------------------------------
 Simply double-click the .html file for an instant demo.
 Repeatedly click the "Add new visitor" button to simulate arrivals at the
 venue of guests that have their favourite artists emitted from an app on
