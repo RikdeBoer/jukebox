@@ -14,11 +14,10 @@ venue of guests that have their favourite artists emitted from an app on
 their phones.
 The page will play (for a few seconds) the songs randomly picked from the
 preferred artists and also show the title of the song currently played.
-
 TypeScript cannot be run in a browser verbatim. 
 However I transpiled the TypeScript code to JavaScript and it is 
 the .js file that is included in the .html file.
---------------
+
 
 
 Problem Analysis
